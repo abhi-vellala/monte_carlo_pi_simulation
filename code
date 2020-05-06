@@ -14,8 +14,8 @@ def pi_simulation():
             s = 0 # points in square
             for num in range(0,n):
             # generating random points for x and y coordinates
-                x = random.uniform(0,1) 
-                y = random.uniform(0,1)
+                x = random.uniform(-1,1) 
+                y = random.uniform(-1,1)
                 s = s + 1
                  #check if the sum of xsq and ysq is greater than 1. If greater they fall outside the circle.
                 if x**2 + y**2 < 1: 
